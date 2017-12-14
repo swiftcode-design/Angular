@@ -1,0 +1,15 @@
+@import '~scss/variables';
+mat-toolbar{
+  background: $marvel-black;
+  color: $text1-inactive;
+}
+.spacer {
+  flex: 1 1 auto;
+}
+.marvel-logo {
+  height: 100%;
+  width: 160px;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/MarvelLogo.svg/1200px-MarvelLogo.svg.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
